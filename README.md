@@ -1,9 +1,29 @@
 # hackathon-practice
 
-This repository is used for practicing:
-- Setting up GitHub
-- Creating pull requests
-- Utilizing agentic AI
+## Overview
+This hackathon practice repository serves as a hands-on learning environment for participants to gain practical experience with GitHub workflows and agentic AI tools.
+
+## What You'll Practice
+
+### Setting up GitHub
+- Generating personal access tokens for authentication
+- Cloning repositories securely
+- Configuring Git credentials
+
+### Creating Pull Requests
+- Creating feature branches
+- Making and committing changes
+- Pushing branches to remote
+- Creating and managing pull requests
+- Using GitHub CLI for PR creation
+
+### Utilizing Agentic AI
+- Installing and configuring OpenCode
+- Setting up GitHub CLI
+- Authenticating with gh CLI
+- Leveraging AI agents for code assistance
+
+This repository contains comprehensive guides and documentation to help beginners get started with these essential development tools and workflows.
 
 ## How to Generate a GitHub Personal Token (Classic) and Clone the Repo
 
