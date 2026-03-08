@@ -1,5 +1,10 @@
 # hackathon-practice
 
+This repository is used for practicing:
+- Setting up GitHub
+- Creating pull requests
+- Utilizing agentic AI
+
 ## How to Generate a GitHub Personal Token (Classic) and Clone the Repo
 
 ### Step 1: Generate a Personal Access Token (Classic)
