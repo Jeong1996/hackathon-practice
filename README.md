@@ -1,5 +1,30 @@
 # hackathon-practice
 
+## Overview
+This hackathon practice repository serves as a hands-on learning environment for participants to gain practical experience with GitHub workflows and agentic AI tools.
+
+## What You'll Practice
+
+### Setting up GitHub
+- Generating personal access tokens for authentication
+- Cloning repositories securely
+- Configuring Git credentials
+
+### Creating Pull Requests
+- Creating feature branches
+- Making and committing changes
+- Pushing branches to remote
+- Creating and managing pull requests
+- Using GitHub CLI for PR creation
+
+### Utilizing Agentic AI
+- Installing and configuring OpenCode
+- Setting up GitHub CLI
+- Authenticating with gh CLI
+- Leveraging AI agents for code assistance
+
+This repository contains comprehensive guides and documentation to help beginners get started with these essential development tools and workflows.
+
 ## How to Generate a GitHub Personal Token (Classic) and Clone the Repo
 
 ### Step 1: Generate a Personal Access Token (Classic)
@@ -76,3 +101,55 @@ If you have GitHub CLI installed:
 ```bash
 gh pr create --base main --head my-feature-branch --title "My Feature" --body "Description"
 ```
+
+# OpenCode Setup Guide
+
+## How to Install OpenCode
+
+### macOS (using Homebrew)
+
+```bash
+brew install opencode
+```
+
+### Other platforms
+
+Visit the official documentation at https://opencode.ai for installation instructions.
+
+## How to Install GitHub CLI (gh)
+
+### macOS (using Homebrew)
+
+```bash
+brew install gh
+```
+
+### Verify installation
+
+```bash
+gh --version
+```
+
+## How to Login with gh CLI
+
+1. Run the authentication command:
+   ```bash
+   gh auth login
+   ```
+
+2. Follow the prompts:
+   - Select **GitHub.com**
+   - Select **HTTPS** as the protocol
+   - Select **Login with a web browser**
+   - Copy the one-time code shown in the terminal
+   - Authorize the application in your browser
+
+3. Verify you're logged in:
+   ```bash
+   gh auth status
+   ```
+
+## Additional Resources
+
+- OpenCode documentation: https://opencode.ai/docs
+- GitHub CLI documentation: https://cli.github.com
